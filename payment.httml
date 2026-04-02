@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment | KIBRIATOP UP</title>
+    <style>
+        body { background: #f1f2f6; font-family: sans-serif; padding: 20px; }
+        .pay-box { background: #fff; padding: 20px; border-radius: 15px; max-width: 400px; margin: auto; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .method { border: 1px solid #eee; padding: 10px; margin-bottom: 10px; border-radius: 10px; display: flex; align-items: center; gap: 10px; }
+        img { width: 40px; }
+        input { width: 100%; padding: 12px; margin-top: 10px; border: 1px solid #ddd; border-radius: 8px; }
+        .btn { width: 100%; background: #e2136e; color: white; border: none; padding: 15px; border-radius: 10px; font-weight: bold; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="pay-box">
+        <h3 style="text-align:center;">পেমেন্ট করুন</h3>
+        <div class="method">
+            <img src="https://www.logo.wine/a/logo/BKash/BKash-Icon-Logo.wine.svg">
+            <div><b>bKash (Personal)</b><br>017XXXXXXXX</div>
+        </div>
+        <div class="method">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Nagad_Logo.svg">
+            <div><b>Nagad (Personal)</b><br>018XXXXXXXX</div>
+        </div>
+        <input type="text" placeholder="টাকার পরিমাণ">
+        <input type="text" placeholder="ট্রানজেকশন আইডি (TrxID)">
+        <button class="btn" onclick="alert('রিকোয়েস্ট পাঠানো হয়েছে!'); location.href='index.html'">নিশ্চিত করুন</button>
+    </div>
+</body>
+</html>

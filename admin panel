@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | KIBRIATOP UP</title>
+    <style>
+        body { font-family: sans-serif; background: #2c3e50; color: white; padding: 20px; }
+        .card { background: #fff; color: #333; padding: 15px; border-radius: 10px; margin-bottom: 10px; }
+        .btn { padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; color: white; }
+    </style>
+</head>
+<body>
+    <h2>Admin Panel</h2>
+    <div class="card">
+        <p><b>অর্ডার আইডি:</b> #1001</p>
+        <p><b>প্লেয়ার আইডি:</b> 258963147</p>
+        <p><b>TrxID:</b> 8NK5M2P9</p>
+        <button class="btn" style="background:#27ae60;">Complete</button>
+        <button class="btn" style="background:#e74c3c;">Cancel</button>
+    </div>
+</body>
+</html>
